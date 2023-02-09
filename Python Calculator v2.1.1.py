@@ -17,13 +17,13 @@ operation = str(input("What is the math operation?"))
 a = float(input("What is the first number of the operation?"))
 b = float(input("What is the second number of the operation?"))
 if myStr == "" and operation == "Addition":
-    myStr = "{} + {} = {}!"
+    myStr = "{} + {} = {}"
 if myStr == "" and operation == "Subtraction":
-    myStr = "{} - {} = {}!"
+    myStr = "{} - {} = {}"
 if myStr == "" and operation == "Multiplication":
-    myStr = "{} x {} = {}!"
+    myStr = "{} x {} = {}"
 if myStr == "" and operation == "Division":
-    myStr = "{} / {} = {}!"    
+    myStr = "{} / {} = {}"    
     
 makeEquation(a, b, operation)
 
