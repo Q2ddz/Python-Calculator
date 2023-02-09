@@ -1,5 +1,4 @@
 myStr = "{} + {} = {}!"
-import time
 
 def makeEquation(a, b, operation):
     if operation == "Addition":
